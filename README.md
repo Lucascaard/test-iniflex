@@ -53,8 +53,10 @@ git clone https://github.com/Lucascaard/test-iniflex.git
 2. Compile e execute:
 ```bash
 cd test-iniflex
-javac src/main/java/com/iniflex/Main.java
-java com.iniflex.Main
+javac -d target src/main/java/com/iniflex/Main.java src/main/java/com/iniflex/model/*.java src/main/java/com/iniflex/service/*.java src/main/java/com/iniflex/util/*.java
+
+# Execute o programa
+java -cp target com.iniflex.Main
 ```
 
 ## Licença
