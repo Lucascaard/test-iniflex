@@ -6,7 +6,7 @@ public class Pessoa {
     private String nome;
     private LocalDate dataNascimento;
 
-    //Constructor
+    //Construtor
 
     public Pessoa(String nome, LocalDate dataNascimento) {
         this.nome = nome;
