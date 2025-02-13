@@ -39,9 +39,7 @@ src/
 ## Dependências
 
 - Java 21
-- Java Collections Framework
-- Java Stream API
-- Java Time API
+- Java Standard Library
 
 ## Como Executar
 
